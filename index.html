@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide|Odibee+Sans|Tomorrow&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d08cfbd935.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <menu>
         <i class="fas fa-cogs"></i>
@@ -40,27 +43,29 @@
         </div>
         <button class="save">Zapisz</button>
     </menu>
-    <div class="calc">    
-        <input type="text" id="input"readonly="readonly">
-        <button  onclick="getNumber(1)">1</button>
-        <button  onclick="getNumber(2)">2</button>
-        <button  onclick="getNumber(3)">3</button>
-        <button  onclick="getNumber(4)">4</button>
-        <button  onclick="getNumber(5)">5</button>
-        <button  onclick="getNumber(6)">6</button>
-        <button  onclick="getNumber(7)">7</button>
-        <button  onclick="getNumber(8)">8</button>
-        <button  onclick="getNumber(9)">9</button>
-        <button  onclick="getNumber(0)">0</button>
-        <button  onclick="getOperand('+')">+</button>
-        <button  onclick="getOperand('-')">-</button>
-        <button  onclick="getOperand('/')">/</button>
-        <button  onclick="getOperand('*')">*</button>
-        <button  onclick="compute()">=</button>
-        <button  onclick="getOperand('.')">.</button>
-        <button  onclick="backspace()"><-</button>
-        <button  onclick="clearScreen()">Clear</button>
+    <div class="calc">
+        <input type="text" id="input" readonly="readonly">
+        <button onclick="getNumber(1)">1</button>
+        <button onclick="getNumber(2)">2</button>
+        <button onclick="getNumber(3)">3</button>
+        <button onclick="getNumber(4)">4</button>
+        <button onclick="getNumber(5)">5</button>
+        <button onclick="getNumber(6)">6</button>
+        <button onclick="getNumber(7)">7</button>
+        <button onclick="getNumber(8)">8</button>
+        <button onclick="getNumber(9)">9</button>
+        <button onclick="getNumber(0)">0</button>
+        <button onclick="getOperand('+')">+</button>
+        <button onclick="getOperand('-')">-</button>
+        <button onclick="getOperand('/')">/</button>
+        <button onclick="getOperand('*')">*</button>
+        <button onclick="compute()">=</button>
+        <button onclick="getOperand('.')">.</button>
+        <button onclick="backspace()">
+            <-</button> <button onclick="clearScreen()">Clear
+        </button>
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>
