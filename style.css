@@ -1,0 +1,518 @@
+/* font-family: 'Odibee Sans', cursive;
+font-family: 'Tomorrow', sans-serif;
+font-family: 'Audiowide', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+menu i {
+    font-size: 60px;
+}
+
+.colorfullCircle {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 6px outset silver;
+
+
+
+}
+
+.colorfullCircle h1 {
+    height: 10%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.fonts {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 6px outset silver;
+
+}
+
+.fonts h1 {
+    height: 10%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fontStyle {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 6px outset silver;
+
+}
+
+.fontStyle h1 {
+    height: 10%;
+    width: 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.font1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.font2 {
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+.font3 {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.font4 {
+    font-family: 'Audiowide', cursive;
+}
+
+.red {
+    background: linear-gradient(to bottom right, red, pink);
+    flex-basis: 50%;
+    border: none;
+}
+
+.blue {
+    background: linear-gradient(to bottom right, blue, lightblue);
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.orange {
+    background: linear-gradient(to bottom right, orangered, orange);
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.green {
+    background: linear-gradient(to bottom right, green, lime);
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.black {
+    background: linear-gradient(to bottom right, black, white);
+    flex-basis: 50%;
+    border: none;
+}
+
+.yellow {
+    background: linear-gradient(to bottom right, yellow, white);
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.redFont {
+    background-color: red;
+    flex-basis: 50%;
+    border: none;
+}
+
+.blueFont {
+    background-color: blue;
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.orangeFont {
+    background-color: orangered;
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.greenFont {
+    background-color: green;
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.silverFont {
+    background-color: silver;
+    flex-basis: 50%;
+    border: none;
+}
+
+.yellowFont {
+    background-color: yellow;
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.font1 {
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.font2 {
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.font3 {
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.font4 {
+    flex-basis: 50%;
+    border: none;
+
+}
+
+.save {
+    font-family: 'Orbitron', sans-serif;
+    padding: 3px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: 6px outset silver;
+}
+
+.calc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 30%;
+    min-width: 300px;
+    height: 85vh;
+    border: 10px solid black;
+    background-color: black;
+}
+
+#input {
+    flex-basis: 100%;
+    width: 30%;
+    height: 15vh;
+    background-color: #000;
+    color: white;
+    line-height: 15vh;
+    text-align: right;
+    padding-right: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8vh;
+}
+
+.calc button {
+    height: 10vh;
+    flex-basis: 30%;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    line-height: 10vh;
+    cursor: pointer;
+}
+
+.redFontAdd {
+    color: red;
+
+}
+
+/* response */
+@media(orientation:portrait) {
+    body {
+        height: 130vh;
+    }
+
+    menu {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+
+    }
+
+    menu i {
+        font-size: 40px;
+    }
+
+    .colorfullCircle {
+        height: 80px;
+        width: 80px;
+        border: 2px outset silver;
+    }
+
+    .fonts {
+        height: 80px;
+        width: 80px;
+        border: 2px outset silver;
+    }
+
+    .fontStyle {
+        height: 80px;
+        width: 80px;
+        border: 2px outset silver;
+
+    }
+
+    .save {
+        padding: 1px;
+        font-size: 10px;
+        border: 2px outset silver;
+    }
+
+    .colorfullCircle h1 {
+        font-size: 8px;
+    }
+
+    .fonts h1 {
+        font-size: 8px;
+    }
+
+    .fontStyle h1 {
+        font-size: 8px;
+        ;
+    }
+
+    .calc {
+        width: 90%;
+    }
+
+}
+
+@media(min-width:600px) {
+    menu i {
+        font-size: 80px;
+    }
+
+    .colorfullCircle {
+        height: 120px;
+        width: 120px;
+        border: 2px outset silver;
+    }
+
+    .fonts {
+        height: 120px;
+        width: 120px;
+        border: 2px outset silver;
+    }
+
+    .fontStyle {
+        height: 120px;
+        width: 120px;
+        border: 2px outset silver;
+
+    }
+
+    .save {
+        padding: 1px;
+        font-size: 20px;
+        border: 2px outset silver;
+    }
+
+}
+
+@media(min-width:640px) {
+    menu i {
+        font-size: 40px;
+    }
+
+    .colorfullCircle {
+        height: 90px;
+        width: 90px;
+        border: 2px outset silver;
+    }
+
+    .fonts {
+        height: 90px;
+        width: 90px;
+        border: 2px outset silver;
+    }
+
+    .fontStyle {
+        height: 90px;
+        width: 90px;
+        border: 2px outset silver;
+
+    }
+
+    .colorfullCircle h1 {
+        font-size: 10px;
+    }
+
+    .fonts h1 {
+        font-size: 10px;
+    }
+
+    .fontStyle h1 {
+        font-size: 10px;
+    }
+
+    .save {
+        padding: 1px;
+        font-size: 15px;
+        border: 2px outset silver;
+    }
+
+}
+
+@media(min-width:800px) {
+    .save {
+        padding: 1px;
+        font-size: 30px;
+        border: 2px outset silver;
+    }
+
+    .colorfullCircle h1 {
+        font-size: 15px;
+    }
+
+    .fonts h1 {
+        font-size: 15px;
+    }
+
+    .fontStyle h1 {
+        font-size: 13px;
+        ;
+    }
+
+}
+
+@media(min-width:1024px) {
+    menu i {
+        font-size: 40px;
+    }
+
+    .colorfullCircle {
+        height: 150px;
+        width: 150px;
+        border: 2px outset silver;
+    }
+
+    .fonts {
+        height: 150px;
+        width: 150px;
+        border: 2px outset silver;
+    }
+
+    .fontStyle {
+        height: 150px;
+        width: 150px;
+        border: 2px outset silver;
+
+    }
+
+    .save {
+        padding: 1px;
+        font-size: 20px;
+        border: 2px outset silver;
+    }
+
+    .colorfullCircle h1 {
+        font-size: 13px;
+    }
+
+    .fonts h1 {
+        font-size: 13px;
+    }
+
+    .fontStyle h1 {
+        font-size: 13px;
+    }
+
+}
+
+@media(min-width:1280px) {
+    menu i {
+        font-size: 80px;
+    }
+
+    .colorfullCircle {
+        height: 160px;
+        width: 160px;
+        border: 2px outset silver;
+    }
+
+    .fonts {
+        height: 160px;
+        width: 160px;
+        border: 2px outset silver;
+    }
+
+    .fontStyle {
+        height: 160px;
+        width: 160px;
+        border: 2px outset silver;
+
+    }
+
+    .save {
+        padding: 1px;
+        font-size: 30px;
+        border: 2px outset silver;
+    }
+
+    .colorfullCircle h1 {
+        font-size: 20px;
+    }
+
+    .fonts h1 {
+        font-size: 20px;
+    }
+
+    .fontStyle h1 {
+        font-size: 20px;
+    }
+
+    .calc {
+        width: 40%;
+    }
+
+}
